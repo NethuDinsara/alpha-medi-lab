@@ -13,24 +13,32 @@ const Branches = () => {
   const branches = {
     main: {
       name: 'Main Branch',
-      address: '123 Medical Center Drive, City Center, ST 12345',
-      phone: '+1 (555) 123-4567',
-      hours: 'Mon-Sat: 7:00 AM - 9:00 PM, Sun: 8:00 AM - 6:00 PM',
+      address: '222/B, Kandy Road, Dalugama,Kelaniya',
+      phone: '0112919169',
+      hours: 'Mon-Sat: 7:00 AM - 9:00 PM, Sun: 6:00 AM - 8.00PM',
       services: ['Full Laboratory Services', 'Doctor Consultations', 'Sample Collection', '24/7 Emergency Testing'],
       image: '/api/placeholder/600/400'
     },
     north: {
-      name: 'North Branch',
-      address: '456 Health Avenue, North City, ST 12346',
-      phone: '+1 (555) 234-5678',
+      name: 'Kiribathgoda Branch',
+      address: 'Kiribathgoda',
+      phone: '0112919169',
       hours: 'Mon-Sat: 8:00 AM - 8:00 PM, Sun: 9:00 AM - 5:00 PM',
-      services: ['Laboratory Services', 'Sample Collection', 'Home Collection Service'],
+      services: ['Laboratory Services', 'Sample Collection', 'Home Collection Service','Dr Channeling'],
       image: '/api/placeholder/600/400'
     },
     east: {
-      name: 'East Branch',
-      address: '789 Wellness Street, East Town, ST 12347',
-      phone: '+1 (555) 345-6789',
+      name: 'Makola Branch',
+      address: 'Makola',
+      phone: '0112919169',
+      hours: 'Mon-Sat: 8:00 AM - 8:00 PM, Sun: Closed',
+      services: ['Laboratory Services', 'Sample Collection', 'Specialized Hormone Testing'],
+      image: '/api/placeholder/600/400'
+    },
+    kohalwila:{
+      name: 'Kohalwila Branch',
+      address: 'Kohalwila',
+      phone: '0112919169',
       hours: 'Mon-Sat: 8:00 AM - 8:00 PM, Sun: Closed',
       services: ['Laboratory Services', 'Sample Collection', 'Specialized Hormone Testing'],
       image: '/api/placeholder/600/400'

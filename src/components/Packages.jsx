@@ -13,7 +13,7 @@ const Packages = () => {
   const packages = {
     basic: {
       name: "Basic Health Checkup",
-      price: "$99",
+      price: "2000LKR",
       features: [
         "Complete Blood Count",
         "Lipid Profile",
@@ -25,7 +25,7 @@ const Packages = () => {
     },
     comprehensive: {
       name: "Comprehensive Health Screening",
-      price: "$199",
+      price: "4000LKR",
       features: [
         "All Basic Package Tests",
         "Liver Function Test",
@@ -38,7 +38,7 @@ const Packages = () => {
     },
     executive: {
       name: "Executive Health Assessment",
-      price: "$349",
+      price: "6000LKR",
       features: [
         "All Comprehensive Package Tests",
         "Cardiac Risk Assessment",

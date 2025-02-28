@@ -30,7 +30,7 @@ const Contact = () => {
   };
   
   const contactInfo = [
-    { icon: '📱', title: 'Phone', details: '+1 (555) 123-4567' },
+    { icon: '📱', title: 'Phone', details: '0718227704' },
     { icon: '📧', title: 'Email', details: 'info@alphamedilab.com' },
     { icon: '⏰', title: 'Working Hours', details: 'Mon-Sat: 7:00 AM - 9:00 PM' }
   ];
