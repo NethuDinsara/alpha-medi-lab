@@ -20,8 +20,8 @@ const About = () => {
   }
   
   const stats = [
-    { number: "15+", label: "Years Experience" },
-    { number: "50k+", label: "Patients Served" },
+    { number: "25+", label: "Years Experience" },
+    { number: "100k+", label: "Patients Served" },
     { number: "99%", label: "Accuracy Rate" },
     { number: "24/7", label: "Customer Support" }
   ]
