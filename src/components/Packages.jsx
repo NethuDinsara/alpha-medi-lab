@@ -12,7 +12,7 @@ const Packages = () => {
   
   const packages = {
     basic: {
-      name: "Basic Health Checkup",
+      name: "Rose Package",
       price: "2000LKR",
       features: [
         "Complete Blood Count",
