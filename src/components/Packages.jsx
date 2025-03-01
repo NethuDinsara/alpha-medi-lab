@@ -19,15 +19,15 @@ const Packages = () => {
         "Lipid Profile",
         "Blood Glucose Test",
         "Urinalysis",
-        "Physician Consultation"
+        "MLT Consultation"
       ],
       recommended: false
     },
     comprehensive: {
-      name: "Comprehensive Health Screening",
+      name: "Jasmine Package",
       price: "4000LKR",
       features: [
-        "All Basic Package Tests",
+        "All Rose Package Tests",
         "Liver Function Test",
         "Kidney Function Test",
         "Thyroid Function Test",
