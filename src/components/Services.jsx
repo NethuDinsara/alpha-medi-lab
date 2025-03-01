@@ -17,7 +17,7 @@ const Services = () => {
       icon: '🧪',
       shortDesc: 'Comprehensive blood analysis for various health assessments.',
       fullDesc: 'Our advanced blood testing services include complete blood count (CBC), lipid profiles, glucose tests, liver function tests, kidney function tests, and specialized hormone panels. We use state-of-the-art equipment to ensure accurate results with quick turnaround times.',
-      tests: ['Complete Blood Count', 'Lipid Profile', 'Liver Function', 'Kidney Function', 'Glucose Test', 'Thyroid Panel']
+      tests: ['Complete Blood Count', 'Lipid Profile', 'Fasting Blood Sugar Test', 'C-Reactive Protein (CRP)', 'Glucose Test', 'Thyroid Panel']
     },
     {
       id: 'urine',
