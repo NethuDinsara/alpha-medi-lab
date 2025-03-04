@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
+import alphaHome from '../assets/images/alphaHome.png'
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
@@ -95,7 +96,7 @@ const Hero = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <img src="/api/placeholder/500/500" alt="Lab equipment illustration" />
+          <img src={alphaHome} alt="Lab equipment illustration" />
         </motion.div>
       </div>
     </section>
