@@ -43,6 +43,23 @@ const Services = () => {
       fullDesc: 'Our doctor channeling service connects you with experienced specialists for consultations, follow-ups, and expert medical advice. We maintain a network of trusted healthcare professionals across various specialties to ensure comprehensive care.',
       specialties: ['General Medicine', 'Cardiology', 'Endocrinology', 'Nephrology', 'Gastroenterology', 'Gynecology']
     }
+    ,
+    {
+      id: 'animal',
+      title: 'Animal Testing',
+      icon: '🐶',
+      shortDesc: 'Comprehensive lab tests for accurate health diagnostics.',
+      fullDesc: 'Our advanced laboratory services offer a wide range of tests, including FBC, SGPT, SGOT, Creatinine, and many more. We ensure precise results to help diagnose and monitor various health conditions effectively.',
+      specialties: ['FBC', 'SGPT', 'SGOT', 'Creatinine', 'And Many More']
+    },
+    {
+      id: 'other',
+      title: 'Other Services',
+      icon: '🩺',
+      shortDesc: 'Convenient healthcare services at your doorstep.',
+      fullDesc: 'We offer essential healthcare services, including ECG, blood pressure monitoring, and home visit consultations. Our team ensures accurate diagnostics and personalized care in the comfort of your home.',
+      specialties: ['ECG', 'Home Visits' , 'Blood Pressure Monitoring']
+    }
   ]
   
   const containerVariants = {
