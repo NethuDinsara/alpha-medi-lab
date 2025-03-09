@@ -41,7 +41,7 @@ const Packages = () => {
       price: "6000LKR",
       features: [
         "All Comprehensive Package Tests",
-        "Cardiac Risk Assessment",
+        "Cardiac Risk Assessments",
         "Advanced Hormone Panel",
         "Tumor Markers",
         "Specialized Doctor Consultation",
@@ -129,6 +129,18 @@ const Packages = () => {
           </div>
         </motion.div>
         
+        {/* Industrial Packages Section */}
+        <motion.div 
+          className="industrial-packages"
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+        >
+          <h3>Industrial Packages</h3>
+          <p>We provide specialized health assessments for both Food Handler Companies and Non-Food Handler Companies. Our industrial packages ensure compliance with health regulations and promote workplace well-being.</p>
+        </motion.div>
+        
+        {/* Special Promotions Section */}
         <motion.div 
           className="special-offers"
           initial={{ opacity: 0, y: 50 }}
@@ -152,4 +164,4 @@ const Packages = () => {
   )
 }
 
-export default Packages
+export default Packages;

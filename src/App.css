@@ -644,7 +644,7 @@
 .footer {
   background: linear-gradient(135deg, var(--primary-blue), var(--primary-green));
   padding: 60px 0 20px;
-  margin-top: 80px;
+  margin-top: 150px;
   color: white;
 }
 
@@ -789,3 +789,4 @@
     margin-right: auto;
   }
 }
+
