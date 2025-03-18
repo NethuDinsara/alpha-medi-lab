@@ -36,7 +36,7 @@ const Branches = () => {
       image: '/api/placeholder/600/400'
     },
     kohalwila:{
-      name: 'Kohalwila Branch',
+      name: 'Branch',
       address: 'Kohalwila',
       phone: '0112919169',
       hours: 'Mon-Sat: 8:00 AM - 8:00 PM, Sun: Closed',
