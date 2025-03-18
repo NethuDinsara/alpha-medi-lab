@@ -30,13 +30,13 @@ const Branches = () => {
     east: {
       name: 'Makola Branch',
       address: 'Makola',
-      phone: '0112919169',
+      phone: '0713263104',
       hours: 'Mon-Sat: 8:00 AM - 8:00 PM, Sun: Closed',
       services: ['Laboratory Services', 'Sample Collection', 'Specialized Hormone Testing'],
       image: '/api/placeholder/600/400'
     },
     kohalwila:{
-      name: 'Branch',
+      name: 'Kohalwila Branch',
       address: 'Kohalwila',
       phone: '0112919169',
       hours: 'Mon-Sat: 8:00 AM - 8:00 PM, Sun: Closed',
