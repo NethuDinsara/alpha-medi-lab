@@ -45,7 +45,7 @@ const Services = () => {
     }
     ,
     {
-      id: 'animal',
+      id: 'anima',
       title: 'Animal Testing',
       icon: '🐶',
       shortDesc: 'Comprehensive lab tests for accurate health diagnostics.',
