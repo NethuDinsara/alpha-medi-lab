@@ -36,7 +36,7 @@ const Services = () => {
       tests: ['Thyroid Panel', 'Fertility Hormones', 'Cortisol Levels', 'Growth Hormone', 'Insulin Test', 'Testosterone Levels']
     },
     {
-      id: 'doctor',
+      id: 'doc',
       title: 'Doctor Channeling',
       icon: '👨‍⚕️',
       shortDesc: 'Connect with specialized healthcare professionals.',
