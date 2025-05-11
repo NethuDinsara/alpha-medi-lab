@@ -7,6 +7,7 @@ import Services from './components/Services'
 import Packages from './components/Packages'
 import Contact from './components/Contact'
 import Branches from './components/Branches'
+import Footer from './components/Footer'
 import './App.css'
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
         <Packages />
         <Contact />
         <Branches />
+        <Footer/>
       </main>
     </div>
   )
