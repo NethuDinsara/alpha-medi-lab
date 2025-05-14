@@ -69,6 +69,175 @@
   border-radius: 3px;
 }
 
+/* Package Price Styles */
+.package-prices {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 1rem;
+}
+
+.offer-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-green);
+  margin: 0.2rem 0;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ff4444;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 20px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+/* Package Popup Styles */
+.package-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.package-popup-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 800px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.close-popup {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.2s;
+}
+
+.close-popup:hover {
+  color: #333;
+}
+
+.package-popup-content h2 {
+  color: var(--primary-blue);
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.popup-subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.package-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.package-card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 1.5rem;
+  border: 1px solid #eee;
+  transition: all 0.3s ease;
+}
+
+.package-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.package-card h3 {
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.package-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--primary-green);
+  margin-bottom: 1rem;
+}
+
+.package-card ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.package-card li {
+  padding: 0.3rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.package-card li:before {
+  content: "✓";
+  color: var(--primary-green);
+  position: absolute;
+  left: 0;
+}
+
+.popup-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 0.8rem 2rem;
+  background-color: var(--primary-blue);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s;
+}
+
+.popup-btn:hover {
+  background-color: var(--primary-green);
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .package-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .package-popup-content {
+    padding: 1.5rem 1rem;
+  }
+}
+
+/* Rest of your existing popup styles remain the same */
 /* Hero Styles */
 .hero {
   min-height: 100vh;
