@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import alphaHome from '../assets/images/alphaHome.png'
+import PackagePopup from './PackagePopup' // Add this import
 
 const Hero = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
+  const [showPopup, setShowPopup] = useState(false) // Add this state
   
   useEffect(() => {
     const handleMouseMove = (e) => {
@@ -20,9 +22,10 @@ const Hero = () => {
       : (mousePosition.y / window.innerHeight - 0.5) * 20
     return movement
   }
-  
+
   return (
     <section id="home" className="hero">
+      <PackagePopup showPopup={showPopup} setShowPopup={setShowPopup} />
       <div className="hero-bubbles">
         {[...Array(10)].map((_, i) => (
           <motion.div 
