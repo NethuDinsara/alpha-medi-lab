@@ -17,7 +17,7 @@ const Services = () => {
       icon: '🌡️',
       shortDesc: 'Comprehensive blood analysis for various health assessments.',
       fullDesc: 'Our advanced blood testing services include complete blood count (CBC), lipid profiles, glucose tests, liver function tests, kidney function tests, and specialized hormone panels. We use state-of-the-art equipment to ensure accurate results with quick turnaround times.',
-      tests: ['Full Blood Count - 400/-', 'WBC/DC - 350/-', 'Haemoglobin(Hb) - 350/-','PCV - 350/-','Platelet Count - 350/-','ESR - 400/-','Malaria Parasite (MP)ASIRI - 920/-','Blood Grouping - 550/-','HbA1c - 1950/-','Blood Picture+FBC - 1600/-']
+      tests: ['Full Blood Count', 'WBC/DC', 'Haemoglobin(Hb)','PCV','Platelet Count','ESR','Malaria Parasite (MP)ASIRI','Blood Grouping','HbA1c','Blood Picture+FBC']
     },
     {
       id: 'blood2',
@@ -25,7 +25,7 @@ const Services = () => {
       icon: '🧪',
       shortDesc: 'Comprehensive blood analysis for various health assessments.',
       fullDesc: 'Our advanced blood testing services include complete blood count (CBC), lipid profiles, glucose tests, liver function tests, kidney function tests, and specialized hormone panels. We use state-of-the-art equipment to ensure accurate results with quick turnaround times.',
-      tests: ['Fasting Blood Sugar(FBS) - 200/-','Post Prandial Blood Sugar(PPBS)','Random Blood Sugar(RBS)','Random Blood Sugar(capillary)','OGTT','Blood Sugar Series(BSS)','Glucose challenge test(GCT)']
+      tests: ['Fasting Blood Sugar(FBS)','Post Prandial Blood Sugar(PPBS)','Random Blood Sugar(RBS)','Random Blood Sugar(capillary)','OGTT','Blood Sugar Series(BSS)','Glucose challenge test(GCT)']
     },
     {
       id: 'blood3',
