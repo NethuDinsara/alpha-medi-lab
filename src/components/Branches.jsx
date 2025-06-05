@@ -10,7 +10,7 @@ const Branches = () => {
   
   const [activeBranch, setActiveBranch] = useState('main')
   
-    const phoneNumber = '+94711374776'; // Replace with the actual phone number, including country code
+    const phoneNumber = '+94718227704'; // Replace with the actual phone number, including country code
 
   const handleBookCall = () => {
     // This will attempt to open the phone dialer on mobile devices,
