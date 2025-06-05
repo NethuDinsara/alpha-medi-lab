@@ -10,6 +10,14 @@ const Branches = () => {
   
   const [activeBranch, setActiveBranch] = useState('main')
   
+    const phoneNumber = '+94711374776'; // Replace with the actual phone number, including country code
+
+  const handleBookCall = () => {
+    // This will attempt to open the phone dialer on mobile devices,
+    // or a relevant application on desktops.
+    window.location.href = `tel:${phoneNumber}`;
+  };
+
   const branches = {
     main: {
       name: 'Main Branch',
@@ -120,13 +128,14 @@ const Branches = () => {
                   </ul>
                 </div>
                 
-                <motion.button 
-                  className="btn branch-btn"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  Book Appointment
-                </motion.button>
+                <motion.button
+      className="btn package-btn"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      onClick={handleBookCall} // Add this line!
+    >
+      Book An Appointment
+    </motion.button>
               </div>
               
               <motion.div 
