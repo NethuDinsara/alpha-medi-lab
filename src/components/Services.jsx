@@ -12,20 +12,44 @@ const Services = () => {
   
   const services = [
     {
-      id: 'blood',
-      title: 'Blood Tests',
+      id: 'blood1',
+      title: 'Blood Tests - 1',
       icon: '🧪',
       shortDesc: 'Comprehensive blood analysis for various health assessments.',
       fullDesc: 'Our advanced blood testing services include complete blood count (CBC), lipid profiles, glucose tests, liver function tests, kidney function tests, and specialized hormone panels. We use state-of-the-art equipment to ensure accurate results with quick turnaround times.',
-      tests: ['Complete Blood Count', 'Lipid Profile', 'Fasting Blood Sugar Test', 'C-Reactive Protein (CRP)', 'Glucose Test', 'Thyroid Panel']
+      tests: ['Full Blood Count - 400/-', 'WBC/DC - 350/-', 'Haemoglobin(Hb) - 350/-','PCV - 350/-','Platelet Count - 350/-','ESR - 400/-','Malaria Parasite (MP)ASIRI - 920/-','Blood Grouping - 550/-','HbA1c - 1950/-','Blood Picture+FBC - 1600/-']
     },
     {
-      id: 'urine',
+      id: 'blood2',
+      title: 'Blood Tests - 2',
+      icon: '🧪',
+      shortDesc: 'Comprehensive blood analysis for various health assessments.',
+      fullDesc: 'Our advanced blood testing services include complete blood count (CBC), lipid profiles, glucose tests, liver function tests, kidney function tests, and specialized hormone panels. We use state-of-the-art equipment to ensure accurate results with quick turnaround times.',
+      tests: ['Fasting Blood Sugar(FBS) - 200/-','Post Prandial Blood Sugar(PPBS)','Random Blood Sugar(RBS)','Random Blood Sugar(capillary)','OGTT','Blood Sugar Series(BSS)','Glucose challenge test(GCT)']
+    },
+    {
+      id: 'blood3',
+      title: 'Blood Tests - 3',
+      icon: '🧪',
+      shortDesc: 'Comprehensive blood analysis for various health assessments.',
+      fullDesc: 'Our advanced blood testing services include complete blood count (CBC), lipid profiles, glucose tests, liver function tests, kidney function tests, and specialized hormone panels. We use state-of-the-art equipment to ensure accurate results with quick turnaround times.',
+      tests: ['S.Cholesterole','Lipid Profile','Blood Urea with BUN','S.Creatinine & E GFR','S.Electrolytes','Reanal Profile(RFT)','Total Calcium(Ca2+)','Ionized Calcium','Corrected Calcium','Uric Acid','Inorganic Phosphorus(PO4-)','CPK','TIBC(UIBC)','S.Iron','LDH','Amylase','Liver Profile (LFT)','AST(SGOT)','ALT (SGPT)','Alkaline Phosphatase(ALP)','Gama GT (YGT)','S.Albumin','S.Protein(Albumin/Globulin)','Bilirubin Total','Bilirubin Total/Direct']
+    },
+    {
+      id: 'serology',
+      title: 'Serology',
+      icon: '🧪',
+      shortDesc: 'Comprehensive blood analysis for various health assessments.',
+      fullDesc: 'Our advanced blood testing services include complete blood count (CBC), lipid profiles, glucose tests, liver function tests, kidney function tests, and specialized hormone panels. We use state-of-the-art equipment to ensure accurate results with quick turnaround times.',
+      tests: ['ANA','Leptospira AB','Influanza Ag(H1N1)','Dengue NS1 Ag','Dengue Ab Igg/Ige','FAT','CRP','Rhematoid factor','HIV','SAT','ASOT','VDRL','HepBSAg','Hep A Ab','Hep C Ab']
+    },
+    {
+      id: 'urine & Stool',
       title: 'Urine Analysis',
       icon: '🧫',
       shortDesc: 'Detailed urinalysis for disease detection and monitoring.',
       fullDesc: 'Our urinalysis services provide valuable insights into kidney and urinary tract health, as well as indicators for diabetes, liver problems, and other metabolic disorders. We perform physical, chemical, and microscopic examinations of urine samples.',
-      tests: ['Routine Urinalysis', 'Microscopic Examination', 'Culture & Sensitivity', 'Protein Analysis', '24-Hour Collection', 'Pregnancy Test']
+      tests: ['Urine Full Report(UFR)','Pregnancy Test (URINE)','Urine Micro Albumin(UMA)','Urine Protein Creatinine Ratio(UPCR)','Stool Full Report (SFR)','Stool Occult Blood']
     },
     {
       id: 'hormone',
@@ -33,7 +57,7 @@ const Services = () => {
       icon: '⚗️',
       shortDesc: 'Advanced hormone level testing for various conditions.',
       fullDesc: 'Our comprehensive hormone testing services help diagnose and monitor endocrine disorders, fertility issues, and hormonal imbalances. We offer specialized panels for thyroid function, reproductive hormones, stress hormones, and metabolic regulators.',
-      tests: ['Thyroid Panel', 'Fertility Hormones', 'Cortisol Levels', 'Growth Hormone', 'Insulin Test', 'Testosterone Levels']
+      tests: ['Troponin I - Titre','Ferritin','T3','T4','TSH','FSH','LH','Prolactin','Testosterone','Progesterone','Vitamin D','Serum beta HCG','Total PSA','CA 125','CEA','PT/INR']
     },
     {
       id: 'doctor',
@@ -45,7 +69,7 @@ const Services = () => {
     }
     ,
     {
-      id: 'anima',
+      id: 'animal',
       title: 'Animal Testing',
       icon: '🐶',
       shortDesc: 'Comprehensive lab tests for accurate health diagnostics.',
