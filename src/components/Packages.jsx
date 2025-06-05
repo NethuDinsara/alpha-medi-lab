@@ -141,6 +141,7 @@ const Packages = () => {
           </div>
         </motion.div>
         
+        
         {/* Industrial Packages Section */}
         <motion.div 
           className="industrial-packages"
