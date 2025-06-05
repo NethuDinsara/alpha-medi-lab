@@ -14,7 +14,7 @@ const Services = () => {
     {
       id: 'blood1',
       title: 'Blood Tests - 1',
-      icon: '🧪',
+      icon: '🌡️',
       shortDesc: 'Comprehensive blood analysis for various health assessments.',
       fullDesc: 'Our advanced blood testing services include complete blood count (CBC), lipid profiles, glucose tests, liver function tests, kidney function tests, and specialized hormone panels. We use state-of-the-art equipment to ensure accurate results with quick turnaround times.',
       tests: ['Full Blood Count - 400/-', 'WBC/DC - 350/-', 'Haemoglobin(Hb) - 350/-','PCV - 350/-','Platelet Count - 350/-','ESR - 400/-','Malaria Parasite (MP)ASIRI - 920/-','Blood Grouping - 550/-','HbA1c - 1950/-','Blood Picture+FBC - 1600/-']
@@ -30,7 +30,7 @@ const Services = () => {
     {
       id: 'blood3',
       title: 'Blood Tests - 3',
-      icon: '🧪',
+      icon: '💉',
       shortDesc: 'Comprehensive blood analysis for various health assessments.',
       fullDesc: 'Our advanced blood testing services include complete blood count (CBC), lipid profiles, glucose tests, liver function tests, kidney function tests, and specialized hormone panels. We use state-of-the-art equipment to ensure accurate results with quick turnaround times.',
       tests: ['S.Cholesterole','Lipid Profile','Blood Urea with BUN','S.Creatinine & E GFR','S.Electrolytes','Reanal Profile(RFT)','Total Calcium(Ca2+)','Ionized Calcium','Corrected Calcium','Uric Acid','Inorganic Phosphorus(PO4-)','CPK','TIBC(UIBC)','S.Iron','LDH','Amylase','Liver Profile (LFT)','AST(SGOT)','ALT (SGPT)','Alkaline Phosphatase(ALP)','Gama GT (YGT)','S.Albumin','S.Protein(Albumin/Globulin)','Bilirubin Total','Bilirubin Total/Direct']
@@ -38,7 +38,7 @@ const Services = () => {
     {
       id: 'serology',
       title: 'Serology',
-      icon: '🧪',
+      icon: '🩸',
       shortDesc: 'Comprehensive blood analysis for various health assessments.',
       fullDesc: 'Our advanced blood testing services include complete blood count (CBC), lipid profiles, glucose tests, liver function tests, kidney function tests, and specialized hormone panels. We use state-of-the-art equipment to ensure accurate results with quick turnaround times.',
       tests: ['ANA','Leptospira AB','Influanza Ag(H1N1)','Dengue NS1 Ag','Dengue Ab Igg/Ige','FAT','CRP','Rhematoid factor','HIV','SAT','ASOT','VDRL','HepBSAg','Hep A Ab','Hep C Ab']
