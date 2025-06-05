@@ -4,21 +4,22 @@ import { useEffect } from 'react';
 const PackagePopup = ({ showPopup, setShowPopup }) => {
   const packages = [
     {
-      name: "Basic Health Check",
-      originalPrice: "$149",
-      offerPrice: "$99",
+      name: "Rose Package",
+      originalPrice: "5,000/-",
+      offerPrice: "3,500/-",
       discountText: "30% OFF", // Manually specified discount
       includes: [
-        "Complete Blood Count",
-        "Basic Metabolic Panel",
-        "Urinalysis"
+        "Fasting Blood Sugar",
+        "Lipid Profile",
+        "SGOT/SGPT",
+        "S Creatinine - eGFR",
       ]
     },
     {
       name: "Comprehensive Package",
-      originalPrice: "$299",
-      offerPrice: "$199",
-      discountText: "33% OFF",
+      originalPrice: "9,900/-",
+      offerPrice: "7,000/-",
+      discountText: "30% OFF",
       includes: [
         "All Basic Package Tests",
         "Lipid Profile",
@@ -28,9 +29,9 @@ const PackagePopup = ({ showPopup, setShowPopup }) => {
     },
     {
       name: "Premium Wellness",
-      originalPrice: "$399",
-      offerPrice: "$299",
-      discountText: "25% OFF",
+      originalPrice: "11,850/-",
+      offerPrice: "8,500/-",
+      discountText: "30% OFF",
       includes: [
         "All Comprehensive Tests",
         "Vitamin D Levels",
