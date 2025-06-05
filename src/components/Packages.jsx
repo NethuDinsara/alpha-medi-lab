@@ -13,40 +13,44 @@ const Packages = () => {
   const packages = {
     basic: {
       name: "Rose Package",
-      price: "2000LKR",
+      price: "3500LKR",
       features: [
-        "Complete Blood Count",
+        "Fasting Blood Sugar",
         "Lipid Profile",
-        "Blood Glucose Test",
-        "Urinalysis",
-        "MLT Consultation"
+        "SGOT/SGPT",
+        "S Creatinine - eGFR",
+        "Full Blood Count",
+        "Urine Full Report(UFR)",
+        "ECG"
       ],
       recommended: false
     },
     comprehensive: {
-      name: "Jasmine Package",
-      price: "4000LKR",
+      name: "Lotus Package",
+      price: "7000LKR",
       features: [
-        "All Rose Package Tests",
-        "Liver Function Test",
-        "Kidney Function Test",
-        "Thyroid Function Test",
-        "Vitamin D & B12",
-        "Extended Physician Consultation"
+        "Fasting Blood Sugar",
+        "Lipid Profile",
+        "Liver Profile",
+        "Reanal Profile",
+        "FBC",
+        "UFR",
+        "ECG"
       ],
       recommended: true
     },
     executive: {
-      name: "Executive Health Assessment",
-      price: "6000LKR",
+      name: "Orchid Package",
+      price: "8500LKR",
       features: [
-        "All Comprehensive Package Tests",
-        "Cardiac Risk Assessments",
-        "Advanced Hormone Panel",
-        "Tumor Markers",
-        "Specialized Doctor Consultation",
-        "Personalized Health Plan",
-        "Follow-up Consultation"
+        "Fasting Blood Sugar",
+        "HbA1C",
+        "Lipid Profile",
+        "Liver Profile",
+        "Reanal Profile",
+        "FBC",
+        "UFR",
+        "ECG"
       ],
       recommended: false
     }
