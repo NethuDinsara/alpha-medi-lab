@@ -119,8 +119,7 @@ const Contact = () => {
             </div>
             
             <div className="map-container">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434508441!2d144.96305781531696!3d-37.81627997975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1fdfd5f%3A0xf4c128c6e8f0c7e1!2sYour%20Business%20Location!5e0!3m2!1sen!2sus!4v1618881144124!5m2!1sen!2sus" 
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15841.28117768544!2d79.90626541904537!3d6.97148798807499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2581d02273b3b%3A0xdfeddca6ff602652!2sAlpha%20Medi%20Lab!5e0!3m2!1sen!2sus!4v1749139960222!5m2!1sen!2sus" 
                 width="100%" height="300" style={{ border: 0 }} allowFullScreen="" loading="lazy" 
               ></iframe>
             </div>
