@@ -10,6 +10,13 @@ const Packages = () => {
   
   const [selectedPackage, setSelectedPackage] = useState('basic')
   
+  const phoneNumber = '+94711374776'; // Replace with the actual phone number, including country code
+
+  const handleBookCall = () => {
+    // This will attempt to open the phone dialer on mobile devices,
+    // or a relevant application on desktops.
+    window.location.href = `tel:${phoneNumber}`;
+  };
   const packages = {
     basic: {
       name: "Rose Package",
@@ -120,13 +127,14 @@ const Packages = () => {
             ))}
           </ul>
           
-          <motion.button 
-            className="btn package-btn"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Book This Package
-          </motion.button>
+          <motion.button
+      className="btn package-btn"
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.95 }}
+      onClick={handleBookCall} // Add this line!
+    >
+      Book This Package
+    </motion.button>
           
           <div className="package-note">
             <p>Special offer: 10% discount for senior citizens and students</p>
