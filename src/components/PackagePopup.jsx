@@ -13,30 +13,41 @@ const PackagePopup = ({ showPopup, setShowPopup }) => {
         "Lipid Profile",
         "SGOT/SGPT",
         "S Creatinine - eGFR",
+        "Full Blood Count",
+        "Urine Full Report(UFR)",
+        "ECG"
       ]
     },
     {
-      name: "Comprehensive Package",
+      name: "Lotus Package",
       originalPrice: "9,900/-",
       offerPrice: "7,000/-",
       discountText: "30% OFF",
       includes: [
-        "All Basic Package Tests",
+        "Fasting Blood Sugar",
         "Lipid Profile",
-        "Liver Function Tests",
-        "Thyroid Function Tests"
+        "Liver Profile",
+        "Reanal Profile",
+        "FBC",
+        "UFR",
+        "ECG"
+
       ]
     },
     {
-      name: "Premium Wellness",
+      name: "Orchid Package",
       originalPrice: "11,850/-",
       offerPrice: "8,500/-",
       discountText: "30% OFF",
       includes: [
-        "All Comprehensive Tests",
-        "Vitamin D Levels",
-        "Diabetes Screening",
-        "Cardiac Risk Markers"
+        "Fasting Blood Sugar",
+        "HbA1C",
+        "Lipid Profile",
+        "Liver Profile",
+        "Reanal Profile",
+        "FBC",
+        "UFR",
+        "ECG"
       ]
     }
   ];
