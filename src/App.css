@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center; 
-}
+/* } style */
 
 .logo {
   font-size: 1.8rem;
