@@ -25,9 +25,9 @@ const footer=()=>{
               <h4>Connect With Us</h4>
               <div className="social-icons">
                 <a href="#" className="social-icon">FB</a>
-                <a href="#" className="social-icon">TW</a>
+                <a href="#" className="social-icon">TT</a>
                 <a href="#" className="social-icon">IG</a>
-                <a href="#" className="social-icon">LI</a>
+                {/* <a href="#" className="social-icon">LI</a> */}
               </div>
             </div>
           </div>
