@@ -22,33 +22,57 @@ const Branches = () => {
     main: {
       name: 'Main Branch',
       address: '222/B, Kandy Road, Dalugama,Kelaniya',
-      phone: '0112919169',
-      hours: 'Mon-Sat: 7:00 AM - 9:00 PM, Sun: 6:00 AM - 8.00PM',
-      services: ['Full Laboratory Services', 'Doctor Consultations', 'Sample Collection', '24/7 Emergency Testing'],
+      phone: '0112 906 949 , 071 709 0884',
+      hours: 'Mon-Sat: 6:00 AM - 8:00 PM, Sun/Poya: 6:30 AM - 6:00 PM',
+      services: ['Full Laboratory Services', 'Doctor Channeling', 'Sample Collection', 'Emergency Testing','ECG'],
       image: '/api/placeholder/600/400'
     },
     north: {
       name: 'Kiribathgoda Branch',
       address: 'Kiribathgoda',
-      phone: '0112919169',
-      hours: 'Mon-Sat: 8:00 AM - 8:00 PM, Sun: 9:00 AM - 5:00 PM',
-      services: ['Laboratory Services', 'Sample Collection', 'Home Collection Service','Dr Channeling'],
+      phone: '0112 984 661 , 071 960 7974',
+      hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun/Poya: 6:30 AM - 6:00 PM',
+      services: ['Sample Collection', 'Dr Channeling', 'OPD','ECG'],
       image: '/api/placeholder/600/400'
     },
     east: {
       name: 'Makola Branch',
       address: 'Makola',
-      phone: '0713263104',
-      hours: 'Mon-Sat: 8:00 AM - 8:00 PM, Sun: Closed',
-      services: ['Laboratory Services', 'Sample Collection', 'Specialized Hormone Testing'],
+      phone: '0112 269 949',
+      hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon',
+      services: ['Sample Collection','ECG'],
       image: '/api/placeholder/600/400'
     },
     kohalwila:{
       name: 'Kohalwila Branch',
       address: 'Kohalwila',
-      phone: '0112919169',
-      hours: 'Mon-Sat: 8:00 AM - 8:00 PM, Sun: Closed',
-      services: ['Laboratory Services', 'Sample Collection', 'Specialized Hormone Testing'],
+      phone: '0112 269 858',
+      hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon',
+      services: ['Sample Collection', 'ECG'],
+      image: '/api/placeholder/600/400'
+    },
+    Mvm:{
+      name: 'Mavaramandiya Branch',
+      address: 'Kohalwila',
+      phone: '0112 927 837',
+      hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon',
+      services: ['Sample Collection', 'ECG'],
+      image: '/api/placeholder/600/400'
+    },
+    Kadawatha:{
+      name: 'Kadawatha Branch',
+      address: 'Kohalwila',
+      phone: '0112 902 420',
+      hours: 'Mon-Sat: 6:30 AM - 5:30 PM, Sun: 6:30 AM - 12 Noon',
+      services: ['Sample Collection', 'ECG'],
+      image: '/api/placeholder/600/400'
+    },
+    Hunupitiya:{
+      name: 'Hunupitiya Branch',
+      address: 'Kohalwila',
+      phone: '0112 983 198',
+      hours: 'Mon-Sat: 6:30 AM - 6:30 PM, Sun: 6:30 AM - 12 Noon',
+      services: ['Sample Collection', 'ECG'],
       image: '/api/placeholder/600/400'
     }
   }
