@@ -25,7 +25,8 @@ const Branches = () => {
       phone: '0112 906 949 , 071 709 0884',
       hours: 'Mon-Sat: 6:00 AM - 8:00 PM, Sun/Poya: 6:30 AM - 6:00 PM',
       services: ['Full Laboratory Services', 'Doctor Channeling', 'Sample Collection', 'Emergency Testing','ECG'],
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      locationLink: 'https://maps.app.goo.gl/YourMainBranchLocation' // **Add your Google Maps link here**
     },
     north: {
       name: 'Kiribathgoda Branch',
@@ -33,7 +34,8 @@ const Branches = () => {
       phone: '0112 984 661 , 071 960 7974',
       hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun/Poya: 6:30 AM - 6:00 PM',
       services: ['Sample Collection', 'Dr Channeling', 'OPD','ECG'],
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      locationLink: 'https://maps.app.goo.gl/YourKiribathgodaBranchLocation' // **Add your Google Maps link here**
     },
     east: {
       name: 'Makola Branch',
@@ -41,7 +43,8 @@ const Branches = () => {
       phone: '0112 269 949',
       hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon',
       services: ['Sample Collection','ECG'],
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      locationLink: 'https://maps.app.goo.gl/YourMakolaBranchLocation' // **Add your Google Maps link here**
     },
     kohalwila:{
       name: 'Kohalwila Branch',
@@ -49,7 +52,8 @@ const Branches = () => {
       phone: '0112 269 858',
       hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon',
       services: ['Sample Collection', 'ECG'],
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      locationLink: 'https://maps.app.goo.gl/YourKohalwilaBranchLocation' // **Add your Google Maps link here**
     },
     Mvm:{
       name: 'Mavaramandiya Branch',
@@ -57,7 +61,8 @@ const Branches = () => {
       phone: '0112 927 837',
       hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon',
       services: ['Sample Collection', 'ECG'],
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      locationLink: 'https://maps.app.goo.gl/YourMavaramandiyaBranchLocation' // **Add your Google Maps link here**
     },
     Kadawatha:{
       name: 'Kadawatha Branch',
@@ -65,7 +70,8 @@ const Branches = () => {
       phone: '0112 902 420',
       hours: 'Mon-Sat: 6:30 AM - 5:30 PM, Sun: 6:30 AM - 12 Noon',
       services: ['Sample Collection', 'ECG'],
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      locationLink: 'https://maps.app.goo.gl/YourKadawathaBranchLocation' // **Add your Google Maps link here**
     },
     Hunupitiya:{
       name: 'Hunupitiya Branch',
@@ -73,7 +79,8 @@ const Branches = () => {
       phone: '0112 983 198',
       hours: 'Mon-Sat: 6:30 AM - 6:30 PM, Sun: 6:30 AM - 12 Noon',
       services: ['Sample Collection', 'ECG'],
-      image: '/api/placeholder/600/400'
+      image: '/api/placeholder/600/400',
+      locationLink: 'https://maps.app.goo.gl/YourHunupitiyaBranchLocation' // **Add your Google Maps link here**
     }
   }
   
@@ -135,6 +142,13 @@ const Branches = () => {
                   <span className="info-icon">⏰</span>
                   <p>{branches[branch].hours}</p>
                 </div>
+
+                {branches[branch].locationLink && ( // Conditionally render the location link
+                  <div className="info-item">
+                    <span className="info-icon">🗺️</span>
+                    <a href={branches[branch].locationLink} target="_blank" rel="noopener noreferrer">View on Map</a>
+                  </div>
+                )}
                 
                 <div className="branch-services">
                   <h4>Available Services</h4>
@@ -153,13 +167,13 @@ const Branches = () => {
                 </div>
                 
                 <motion.button
-      className="btn package-btn"
-      whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.95 }}
-      onClick={handleBookCall} // Add this line!
-    >
-      Book An Appointment
-    </motion.button>
+                  className="btn package-btn"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  onClick={handleBookCall}
+                >
+                  Book An Appointment
+                </motion.button>
               </div>
               
               <motion.div 
@@ -174,10 +188,8 @@ const Branches = () => {
           ))}
         </div>
       </div>
-      
-      
     </section>
   )
 }
 
-export default Branches
+export default Branches;
