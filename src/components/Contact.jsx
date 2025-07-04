@@ -88,7 +88,7 @@ const Contact = () => {
                   <textarea id="message" name="message" rows="5" value={formState.message} onChange={handleChange} required></textarea>
                 </div>
                 <motion.button type="submit" className="btn" whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                  Send Message
+                  Send Messages
                 </motion.button>
               </form>
             )}
