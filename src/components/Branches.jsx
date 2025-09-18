@@ -182,7 +182,7 @@ const Branches = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.5, delay: 0.3 }}
               >
-                <img src={branches[branch].image} alt={branches[branch].name} />
+                {/* <img src={branches[branch].image} alt={branches[branch].name} /> */}
               </motion.div>
             </motion.div>
           ))}
