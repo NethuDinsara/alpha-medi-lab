@@ -1,3 +1,19 @@
+/* Dark Mode Variables */
+:root {
+  --dark-bg: #121212;
+  --dark-surface: #1e1e1e;
+  --dark-card: #252525;
+  --dark-text: #e0e0e0;
+  --dark-text-secondary: #a0a0a0;
+  --dark-border: #333333;
+  --dark-hover: #2d2d2d;
+  --primary-blue: #64b5f6;
+  --primary-green: #81c784;
+  --dark: #e0e0e0;
+  --gray: #666666;
+  --light-gray: #333333;
+}
+
 /* Navbar Styles */
 .navbar {
   position: fixed;
@@ -960,3 +976,190 @@
   }
 }
 
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+body.dark-mode .navbar {
+  background-color: rgba(30, 30, 30, 0.95);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .navbar.scrolled {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .nav-links a {
+  color: var(--dark-text);
+}
+
+body.dark-mode .nav-links a.active {
+  color: var(--primary-blue);
+}
+
+body.dark-mode .logo {
+  color: var(--primary-blue);
+}
+
+body.dark-mode .hamburger span {
+  background-color: var(--primary-blue);
+}
+
+/* Hero Section Dark Mode */
+body.dark-mode .hero {
+  background: linear-gradient(135deg, rgba(100, 181, 246, 0.1), rgba(129, 199, 132, 0.1));
+}
+
+/* Cards, Containers and Sections Dark Mode */
+body.dark-mode .stat-card,
+body.dark-mode .service-card,
+body.dark-mode .package-details,
+body.dark-mode .offer-card,
+body.dark-mode .contact-form-container,
+body.dark-mode .branch-info,
+body.dark-mode .package-card {
+  background-color: var(--dark-card);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  color: var(--dark-text);
+}
+
+body.dark-mode .service-card.active {
+  box-shadow: 0 15px 40px rgba(100, 181, 246, 0.3);
+}
+
+body.dark-mode .package-tab,
+body.dark-mode .branch-tab {
+  background: var(--dark-surface);
+  color: var(--dark-text);
+}
+
+body.dark-mode .package-tab.active,
+body.dark-mode .branch-tab.active {
+  background: var(--primary-blue);
+  color: #121212;
+}
+
+body.dark-mode .form-group input,
+body.dark-mode .form-group textarea {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+  color: var(--dark-text);
+}
+
+body.dark-mode .form-group input:focus,
+body.dark-mode .form-group textarea:focus {
+  border-color: var(--primary-blue);
+}
+
+body.dark-mode .package-note {
+  background-color: var(--dark-surface);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .service-expand {
+  background: var(--dark-surface);
+  color: var(--dark-text);
+}
+
+body.dark-mode .service-card.active .service-expand {
+  background: var(--primary-blue);
+  color: white;
+}
+
+/* Footer Dark Mode */
+body.dark-mode .footer {
+  background: linear-gradient(135deg, #0d47a1, #1b5e20);
+}
+
+/* Package Popup Dark Mode */
+body.dark-mode .package-popup-content {
+  background-color: var(--dark-card);
+  color: var(--dark-text);
+}
+
+body.dark-mode .close-popup {
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .close-popup:hover {
+  color: var(--dark-text);
+}
+
+body.dark-mode .popup-subtitle {
+  color: var(--dark-text-secondary);
+}
+
+/* Dark Mode Toggle Switch */
+.dark-mode-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: var(--dark-surface);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.dark-mode-toggle:hover {
+  transform: scale(1.1);
+}
+
+.dark-mode-toggle i {
+  font-size: 1.5rem;
+  color: var(--primary-blue);
+}
+
+/* Responsive adjustments for dark mode */
+@media (max-width: 768px) {
+  body.dark-mode .navbar .nav-links {
+    background: var(--dark-surface);
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* General text and background adjustments */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: var(--dark-text);
+}
+
+body.dark-mode p {
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .section-title {
+  color: var(--primary-blue);
+}
+
+body.dark-mode .btn {
+  background-color: var(--primary-blue);
+}
+
+body.dark-mode .btn:hover {
+  background-color: var(--primary-green);
+}
+
+body.dark-mode .btn-outline {
+  border-color: var(--primary-blue);
+  color: var(--primary-blue);
+}
+
+body.dark-mode .btn-outline:hover {
+  background-color: var(--primary-blue);
+  color: white;
+}
