@@ -26,7 +26,7 @@ const Branches = () => {
       hours: 'Mon-Sat: 6:00 AM - 8:00 PM, Sun/Poya: 6:30 AM - 6:00 PM',
       services: ['Full Laboratory Services', 'Doctor Channeling', 'Sample Collection', 'Emergency Testing','ECG'],
       image: '/api/placeholder/600/400',
-      locationLink: 'https://maps.app.goo.gl/YourMainBranchLocation' // **Add your Google Maps link here**
+      locationLink: 'https://maps.app.goo.gl/Jqj9mYvkkERfGcZM6?g_st=ipc' // **Add your Google Maps link here**
     },
     north: {
       name: 'Kiribathgoda Branch',
@@ -35,7 +35,7 @@ const Branches = () => {
       hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun/Poya: 6:30 AM - 6:00 PM',
       services: ['Sample Collection', 'Dr Channeling', 'OPD','ECG'],
       image: '/api/placeholder/600/400',
-      locationLink: 'https://maps.app.goo.gl/YourKiribathgodaBranchLocation' // **Add your Google Maps link here**
+      locationLink: 'https://maps.app.goo.gl/AgBphZidxNrHTmd9A?g_st=ipc' // **Add your Google Maps link here**
     },
     east: {
       name: 'Makola Branch',
@@ -44,7 +44,7 @@ const Branches = () => {
       hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon',
       services: ['Sample Collection','ECG'],
       image: '/api/placeholder/600/400',
-      locationLink: 'https://maps.app.goo.gl/YourMakolaBranchLocation' // **Add your Google Maps link here**
+      locationLink: 'https://maps.app.goo.gl/U8c8rZAoJ4UUSLMr5?g_st=ipc' // **Add your Google Maps link here**
     },
     kohalwila:{
       name: 'Kohalwila Branch',
@@ -53,7 +53,7 @@ const Branches = () => {
       hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon',
       services: ['Sample Collection', 'ECG'],
       image: '/api/placeholder/600/400',
-      locationLink: 'https://maps.app.goo.gl/YourKohalwilaBranchLocation' // **Add your Google Maps link here**
+      locationLink: 'https://maps.app.goo.gl/qX325ZMtCAX84Ve7A?g_st=ipc' // **Add your Google Maps link here**
     },
     Mvm:{
       name: 'Mavaramandiya Branch',
@@ -62,7 +62,7 @@ const Branches = () => {
       hours: 'Mon-Sat: 6:30 AM - 7:00 PM, Sun: 6:30 AM - 12 Noon',
       services: ['Sample Collection', 'ECG'],
       image: '/api/placeholder/600/400',
-      locationLink: 'https://maps.app.goo.gl/YourMavaramandiyaBranchLocation' // **Add your Google Maps link here**
+      locationLink: 'https://maps.app.goo.gl/g3RCBb1GyGCWXsXT9?g_st=ipc' // **Add your Google Maps link here**
     },
     Kadawatha:{
       name: 'Kadawatha Branch',
@@ -71,7 +71,7 @@ const Branches = () => {
       hours: 'Mon-Sat: 6:30 AM - 5:30 PM, Sun: 6:30 AM - 12 Noon',
       services: ['Sample Collection', 'ECG'],
       image: '/api/placeholder/600/400',
-      locationLink: 'https://maps.app.goo.gl/YourKadawathaBranchLocation' // **Add your Google Maps link here**
+      locationLink: 'https://maps.app.goo.gl/oQS1LJjkTg666nqS6?g_st=ipc' // **Add your Google Maps link here**
     },
     Hunupitiya:{
       name: 'Hunupitiya Branch',
@@ -80,7 +80,7 @@ const Branches = () => {
       hours: 'Mon-Sat: 6:30 AM - 6:30 PM, Sun: 6:30 AM - 12 Noon',
       services: ['Sample Collection', 'ECG'],
       image: '/api/placeholder/600/400',
-      locationLink: 'https://maps.app.goo.gl/YourHunupitiyaBranchLocation' // **Add your Google Maps link here**
+      locationLink: 'https://maps.app.goo.gl/DWCx64NiXZN6d2EC6?g_st=ipc' // **Add your Google Maps link here**
     }
   }
   
