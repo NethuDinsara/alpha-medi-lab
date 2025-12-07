@@ -35,7 +35,7 @@ const About = () => {
           animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
           transition={{ duration: 0.6 }}
         >
-          About Usaaaa
+          About Usa
         </motion.h2>
         
         <div className="about-content">
